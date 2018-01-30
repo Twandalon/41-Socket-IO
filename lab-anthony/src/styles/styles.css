@@ -1,0 +1,37 @@
+#title {
+  width: 400px;
+  margin:0 auto
+}
+
+#forms {
+  margin:20px 674px auto;
+  width: 270px;
+  height: 100%;
+}
+
+#message-input {
+  width: 450px;
+  height: 40px;
+  resize: none;
+}
+
+#username-input {
+  margin-bottom: 7px;
+}
+
+#messages {
+  width: 800px;
+  margin:0 auto
+  display: inline-block;
+}
+
+.message-text {
+  white-space: pre-wrap;
+}
+
+.username {
+  background-color: green;
+  border-radius: 2px;
+  max-width: 100%;
+  display: inline-block;
+}

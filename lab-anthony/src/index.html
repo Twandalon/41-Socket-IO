@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="/styles/styles.css" rel="stylesheet">
+    <title>Welcome To The Jungle</title>
+  </head>
+  <body>
+    <h1 id="title">1337 H4CK3R CH4T</h1>
+
+    <section id="forms">
+    <form id="username-form">
+      <input placeholder="username..." id="username-input"/>
+      <button type="submit"> SAVE </button>
+    </form>
+
+    <form id="message-form">
+      <textarea placeholder="Type a message here..." id="message-input"></textarea>
+      <button type="submit"> SEND </button>
+    </form>
+  </section>
+
+    <div id="messages"></div>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/models/message.js"></script>
+</html>
