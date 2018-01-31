@@ -14,7 +14,6 @@ class ChatMessage {
     let message = document.createElement('div');
 
     message.classList.add('message-text');
-
     container.classList.add('message');
     timestamp.classList.add('timestamp');
     username.classList.add('username');
